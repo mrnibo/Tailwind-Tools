@@ -4,12 +4,12 @@ A collection of utility generators for CSS properties, including gradient, flex,
 
 ## Features
 
-| Feature              | Description                                          | Status      |
-| -------------------- | ---------------------------------------------------- | ----------- |
-| Gradient Generator   | Customize and generate CSS gradients                 | Completed   |
-| Flex Generator       | Design and generate CSS flexbox layouts              | Completed   |
-| Column Generator     | Customize and generate CSS grid layouts with columns | Completed   |
-| Box-Shadow Generator | Generate custom CSS and Tailwind CSS box shadows     | In Progress |
+| Feature              | Description                                          | Status |
+| -------------------- | ---------------------------------------------------- | ------ |
+| Gradient Generator   | Customize and generate CSS gradients                 | ♻️     |
+| Flex Generator       | Design and generate CSS flexbox layouts              | ❎     |
+| Column Generator     | Customize and generate CSS grid layouts with columns | ❎     |
+| Box-Shadow Generator | Generate custom CSS and Tailwind CSS box shadows     | ❎     |
 
 ## Installation
 
@@ -61,11 +61,7 @@ Generate custom CSS and Tailwind CSS box shadows. Current functionality includes
 
 ## Project Structure
 
-- `src/`
-  - `components/`: React components for each generator.
-  - `logic/`: Utility functions for generating CSS and Tailwind CSS code.
-  - `App.tsx`: Main application component.
-  - `index.tsx`: Entry point of the application.
+---
 
 ## Contributing
 
@@ -80,7 +76,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries or feedback, please contact [yourname@example.com](mailto:yourname@example.com).
