@@ -4,10 +4,12 @@ A collection of utility generators for CSS properties, including gradient, flex,
 
 ## Features
 
-- **Gradient Generator**: Create and customize CSS gradients.
-- **Flex Generator**: Design and generate CSS flexbox layouts.
-- **Column Generator**: Customize and generate CSS grid layouts with columns.
-- **Box-Shadow Generator**: Generate custom CSS and Tailwind CSS box shadows (work in progress).
+| Feature              | Description                                          | Status      |
+| -------------------- | ---------------------------------------------------- | ----------- |
+| Gradient Generator   | Customize and generate CSS gradients                 | Completed   |
+| Flex Generator       | Design and generate CSS flexbox layouts              | Completed   |
+| Column Generator     | Customize and generate CSS grid layouts with columns | Completed   |
+| Box-Shadow Generator | Generate custom CSS and Tailwind CSS box shadows     | In Progress |
 
 ## Installation
 
