@@ -1,50 +1,84 @@
-# Vite & NextUI Template
+# CSS Utility Generators
 
-This is a template for creating applications using Vite and NextUI (v2).
+A collection of utility generators for CSS properties, including gradient, flex, column, and box-shadow generators. This project is a work in progress, with the box-shadow generator currently under development.
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/vite-template)
+## Features
 
-## Technologies Used
+- **Gradient Generator**: Create and customize CSS gradients.
+- **Flex Generator**: Design and generate CSS flexbox layouts.
+- **Column Generator**: Customize and generate CSS grid layouts with columns.
+- **Box-Shadow Generator**: Generate custom CSS and Tailwind CSS box shadows (work in progress).
 
-- [Vite](https://vitejs.dev/guide/)
-- [NextUI](https://nextui.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+## Installation
 
-## How to Use
+1. **Clone the repository:**
 
-To clone the project, run the following command:
+   ```bash
+   git clone https://github.com/yourusername/css-utility-generators.git
+   cd css-utility-generators
 
-```bash
-git clone https://github.com/nextui-org/vite-template.git
-```
+   ```
 
-### Install dependencies
+2. **Install dependencies:**
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+   ```bash
+   npm install
 
-```bash
-npm install
-```
+   ```
 
-### Run the development server
+3. **Start the development server:**
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
-### Setup pnpm (optional)
+## Usage
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+### Gradient Generator
 
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
+Customize and generate CSS gradients with an intuitive UI.
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+### Flex Generator
+
+Design and generate CSS flexbox layouts to fit your needs.
+
+### Column Generator
+
+Customize and generate CSS grid layouts with columns for responsive design.
+
+### Box-Shadow Generator (Work in Progress)
+
+Generate custom CSS and Tailwind CSS box shadows. Current functionality includes:
+
+- Horizontal Offset
+- Vertical Offset
+- Blur Radius
+- Spread Radius
+- Shadow Color
+- Inset option
+
+## Project Structure
+
+- `src/`
+  - `components/`: React components for each generator.
+  - `logic/`: Utility functions for generating CSS and Tailwind CSS code.
+  - `App.tsx`: Main application component.
+  - `index.tsx`: Entry point of the application.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-feature-branch`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin my-feature-branch`
+5. Create a pull request.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/nextui-org/vite-template/blob/main/LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, please contact [yourname@example.com](mailto:yourname@example.com).

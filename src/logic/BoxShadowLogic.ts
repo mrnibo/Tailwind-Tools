@@ -7,7 +7,7 @@ export const generateTailwindBoxShadow = (
   inset: boolean
 ): string => {
   const colorWithOpacity = color + (Math.round(0.57 * 255)).toString(16).padStart(2, '0'); // Assuming 57% opacity
-  return `shadow${inset ? '-inset' : ''}-[${hOffset}px_${vOffset}px_${blur}px_${spread}px_${colorWithOpacity}]`;
+  return `shadow-[${inset ? 'inset-' : ''}${hOffset}px_${vOffset}px_${blur}px_${spread}px_${colorWithOpacity}]`;
 };
 
 export const generateVanillaBoxShadow = (
