@@ -2,14 +2,16 @@
 
 A collection of utility generators for CSS properties, including gradient, flex, column, and box-shadow generators. This project is a work in progress, with the box-shadow generator currently under development.
 
+🔴 [LiveDemo](https://nibotailwindtools.netlify.app)
+
 ## Features
 
-| Feature              | Description                                          | Status |
-| -------------------- | ---------------------------------------------------- | ------ |
-| Gradient Generator   | Customize and generate CSS gradients                 | ♻️     |
-| Flex Generator       | Design and generate CSS flexbox layouts              | ❎     |
-| Column Generator     | Customize and generate CSS grid layouts with columns | ❎     |
-| Box-Shadow Generator | Generate custom CSS and Tailwind CSS box shadows     | ❎     |
+| Feature              | Description                                                               | Status |
+| -------------------- | ------------------------------------------------------------------------- | ------ |
+| Gradient Generator   | [Customize and generate CSS gradients](#gradient-generator)               | ♻️     |
+| Flex Generator       | [Design and generate CSS flexbox layouts](#flex-generator)                | ❎     |
+| Column Generator     | [Customize and generate CSS grid layouts with columns](#column-generator) | ❎     |
+| Box-Shadow Generator | [Generate custom CSS and Tailwind CSS box shadows](#box-shadow-generator) | ❎     |
 
 ## Installation
 
