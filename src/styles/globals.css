@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+  /* Basinställningar för container */
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  
+  /* Mobil (upp till 480px) */
+  @media only screen and (max-width: 480px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  /* Surfplatta (481px till 768px) */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  /* Liten skärm (769px till 1024px) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  /* Stor skärm (över 1024px) */
+  @media only screen and (min-width: 1025px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  /* Extra stor skärm (över 1200px) */
+  @media only screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  /* Extra extra stor skärm (över 1400px) */
+  @media only screen and (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
