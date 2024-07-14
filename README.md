@@ -16,7 +16,7 @@ A collection of utility generators for CSS properties, including gradient, flex,
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/css-utility-generators.git
+   git clone https://github.com/mrnibo/Tailwind-Tools
    cd css-utility-generators
 
    ```
